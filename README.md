@@ -10,10 +10,7 @@ Inside `cabal repl` run something like `runPrintResults 1 ``onFile`` "input_file
 or `runPrintResults 1 ``onDir``  "dir_with_cnf_files"`.
 
 ## Tests
-For now I've put some input files in folders named `satisfiable_small`, `satisfiable` and `unsatisfiable`,
-so you can just run `runTest expectSat ``onDir`` "satisfiable"` and 
-`runTest expectUnsat ``onDir`` "unsatisfiable"` (inside `cabal repl` of course.)  
-(all inputs sourced from https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html)
+No tests included for now, during development I used SAT inputs from https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
 
 ## Documentation
 You can build the haddocks with `cabal haddock --haddock-internal` or, if you want nice links to imports, 
